@@ -1,0 +1,23 @@
+---
+galaxy_info:
+  author: Dmitriy Slupytskyi
+  description: role for manage sysctl rules
+  company: azmelanar
+  license: MIT
+  min_ansible_version: 1.2
+  platforms:
+  - name: EL
+    versions:
+    - 6
+    - 7
+  - name: Ubuntu
+    versions:
+    - precise
+    - trusty
+  - name: Debian
+    versions:
+    - wheezy
+  categories:
+  - system
+
+dependencies: []

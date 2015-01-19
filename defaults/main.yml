@@ -1,0 +1,5 @@
+---
+# defaults file for sysctl
+
+sysctl_rules:
+  kernel.panic: 10
