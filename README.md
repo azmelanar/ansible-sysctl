@@ -13,7 +13,11 @@ Tested with Ansible 1.8.2
 Role Variables
 --------------
 
-None
+Variables can be set as dictionary. Example:
+
+    sysctl_rules:
+      kernel.panic: 10
+      vm.swappiness: 10
 
 Dependencies
 ------------
