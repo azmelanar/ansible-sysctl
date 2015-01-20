@@ -1,6 +1,4 @@
 ---
 # defaults file for sysctl
 
-sysctl_rules:
-  kernel.panic: 10
-  vm.swappiness: 10
+sysctl_rules: {}
