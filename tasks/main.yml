@@ -3,6 +3,6 @@
 
 - name: set sysctl rules
   sysctl: name={{ item.key }} value={{ item.value }}
-  with_items: sysctl_rules
+  with_dict: sysctl_rules
   when: sysctl_rules is defined
   tags: [sysctl]
