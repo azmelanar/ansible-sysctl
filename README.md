@@ -20,6 +20,7 @@ Sysctl parameters can be set as dictionary. Example:
        vm.swappiness: 10
  
 Error on setting non-existent sysctl keys might be ignored with:
+
      sysctl_ignore_errors: "yes"
 
 Dependencies
