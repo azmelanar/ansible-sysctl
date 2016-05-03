@@ -13,11 +13,15 @@ Tested with Ansible 1.8.2
 Role Variables
 --------------
 
-Variables can be set as dictionary. Example:
+Sysctl parameters can be set as dictionary. Example:
+ 
+     sysctl_rules:
+       kernel.panic: 10
+       vm.swappiness: 10
+ 
+Error on setting non-existent sysctl keys might be ignored with:
 
-    sysctl_rules:
-      kernel.panic: 10
-      vm.swappiness: 10
+     sysctl_ignore_errors: "yes"
 
 Dependencies
 ------------
